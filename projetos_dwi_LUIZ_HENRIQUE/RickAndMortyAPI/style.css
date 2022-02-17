@@ -28,6 +28,9 @@ body {
 .header-grid-item {
   grid-area: header;
   background-color: rgb(83, 80, 80);
+  background-image: url("https://cdn.discordapp.com/attachments/941124768898371647/943712753594552330/unknown.png");
+  background-size: 1250px 80px;
+  background-repeat: no-repeat;
 }
 
 .aside-grid-item {
