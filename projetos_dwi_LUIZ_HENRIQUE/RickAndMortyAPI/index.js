@@ -5,7 +5,7 @@ function buscarPersonagem() {
         url: "https://rickandmortyapi.com/api/character/" + idPersonagem,
         type: "get",
         success: function (result) {
-            document.getElementById("imagem_personagem").src = result.image
+            document.getElementById("imagem").src = result.image
 
             const textoResultado = `
             <ul>
@@ -15,7 +15,7 @@ function buscarPersonagem() {
                 <li>Origin: ${result.origin.name}</li>
             </ul>
             `
-            document.getElementById("resultado").innerHTML = textoResultado
+            document.getElementById("visorTexto").innerHTML = textoResultado
         }
     });
 }

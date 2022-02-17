@@ -16,19 +16,36 @@
         <div class="area header-grid-item"></div>
         <div class="area aside-grid-item aside-flex-container">
             <nav>
-                <a href="../RickAndMortyAPI/index.html">Rick And Morty API</a>
+                <a href="../Pokedex/index.html">Pokedex API</a>
             </nav>
         </div>
         <div class="area main-grid-item main-flex-cotainer">
-            <div class="buscaPersonagem"></div>
-            <input id="id_personagem" type="number" onkeypress="buscarPersonagem()">
+
+            <div class="container-busca">
+                <div>Buscar:</div>
+                <input type="number" onkeypress="buscarPersonagem()" name="" ; id="id_personagem"
+                    placeholder="Digite um número: ">
+            </div>
+
+            <div class="Api">
+                <div class="visor">
+                    <img id="imagem" src="" alt="">
+                </div>
+                <div class="textoRetorno">
+                    <div id="visorTexto">
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="card_personagem">
-            <img width="300px" id="imagem_personagem" src="" alt="">
-
-            <div id="resultado"></div>
-        </div>
+    </div>
+    <div class="area footer-grid-item">
+    </div>
+    </div>
 </body>
 
 </html>
+
+<style>
+
+</style>
