@@ -1,0 +1,8 @@
+input {
+  font-size: 24px;
+}
+.card_personagem {
+  background-color: rgb(207, 204, 204);
+  border: solid gray 1px;
+  width: fit-content;
+}

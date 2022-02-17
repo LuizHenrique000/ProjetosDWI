@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <script src="index.js"></script>
+    <title>API</title>
+</head>
+
+<body>
+    <div id="site-grid-container">
+        <div class="area header-grid-item"></div>
+        <div class="area aside-grid-item aside-flex-container">
+            <nav>
+                <a href="../RickAndMortyAPI/index.html">Rick And Morty API</a>
+            </nav>
+        </div>
+        <div class="area main-grid-item main-flex-cotainer">
+            <div class="buscaPersonagem"></div>
+            <input id="id_personagem" type="number" onkeypress="buscarPersonagem()">
+        </div>
+
+        <div class="card_personagem">
+            <img width="300px" id="imagem_personagem" src="" alt="">
+
+            <div id="resultado"></div>
+        </div>
+</body>
+
+</html>
